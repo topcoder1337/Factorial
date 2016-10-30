@@ -1,0 +1,81 @@
+<!--
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<meta name="Description" content="Welcome to Our..."
+			<title>Deprecated Elements</title>
+			<link rel="stylesheet" href="style.css">
+			<style>
+	
+			</style>
+			<script>
+	
+			</script>	
+		</head>
+	
+		<body>
+				element						replaced with
+
+				<Acronym></Acronym>  	=>		<abbr></abbr>
+				<Applet></Applet>		=>		<Object></Object>
+				<basefont>				=> 		css styling
+				<big></big>				=>		css styling
+				<center></center>		=>		css styling
+				<dir></dir>				=>		<ul></ul> || <ol></ol>
+				<font></font>			=>		Css styling
+				<frameset></frameset>	=>		xxxxxxxxxxx	
+			
+			<header></header>
+			<nav></nav>
+			<section></section>
+			<article></article>
+			<footer></footer>
+	
+		</body>
+	</html> 
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8	/>
+		<meta name=description content="Welcome to my website" />
+		<title>First Html5 Page</title>
+		<link rel=stylesheet href=style.css	/>
+		<style>
+			
+		</style>
+		<script>
+
+		</script>	
+	</head>
+	<body>
+		<header class=main>
+				<h2>Google</h2>
+		</header>
+		<nav>
+			<ul><li>Home</li><li>About</li><li>Events</li><li>Contact Us</li></ul>		
+		</nav>
+		<article>
+			<header>
+				<h3>Article No #01</h3>
+				<p>This Article #01 Created By <span>Chernobyl1337</span> On <span>20/10/2016</span>
+			</header>
+		</article>
+		<article>
+			<header>
+				<h3>Article No #02</h3>
+				<p>This Article #02 Created By <span>Chernobyl1337</span> On <span>20/10/2016</span>
+			</header>
+		</article>
+		<article>
+			<header>
+				<h3>Article No #03</h3>
+				<p>This Article #03 Created By <span>Chernobyl1337</span> On <span>20/10/2016</span>
+			</header>
+		</article>
+		<footer>
+			<p>copyright &copy; All Right Reserved</p>
+		</footer>
+	</body>
+</html>
